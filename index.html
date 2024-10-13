@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tech Skill Vocational Institute</h1>
+        <h1>Test No 2</h1>
+        <div class="name-section">
+            <label for="studentName">Enter your name:</label>
+            <input style="height:40px; width: 180px;" type="text" id="studentName" placeholder="Your Name">
+        </div>
+
+        <!-- Display Student's Name -->
+        <p id="displayName"></p>
+
+        <!-- Question 1 (Yes/No using checkboxes) -->
+        <div class="question">
+            <p>1. You build a machine learning model by using the automated machine learning user interface (UI).
+                You need to ensure that the model meets the Microsoft transparency principle for responsible AI.
+                What should you do?</p>
+            <input type="checkbox" id="SetPrimarymetrictoaccuracy" value="Set Primary metric to accuracy.">
+            <label for="Set Primary metric to accuracy.">Set Primary metric to accuracy.</label>
+            
+            <input type="checkbox" id="EnableExplainbestmodel" value="Enable Explain best model">
+            <label for="Enable Explain best model">Enable Explain best model</label>
+            
+        </div>
+        
+        <!-- Question 2 (Dropdown) -->
+        <div class="question">
+            <p>2.The handling of unusual or missing values provided to an Al system is a consideration
+                for the Microsoft-------principle for responsible Al:</p>
+            <select id="question2">
+                <option value="">--Select an answer--</option>
+                <option value="inclusiveness">inclusiveness</option>
+                <option value="reliability and safety">reliability and safety</option>
+                <option value="transparency">transparency</option>
+                <option value="privacy and security">privacy and security</option>
+            </select>
+        </div>
+          <!-- Question 3 (Dropdown) -->
+        
+          <div class="question">
+            <p>3. Determining whether a photo contains a person </p>
+            <input type="radio" id="Computer" name="workloadAI" value="Computer vision">
+            <label for="Computer vision">Computer vision</label>
+            
+            <input type="radio" id="Computer" name="workloadAI" value="Machine Learning">
+            <label for="Machine Learning">Machine Learning</label>
+            
+            <input type="radio" id="Computer" name="workloadAI" value="Artificial Intelligence">
+            <label for="Artificial Intelligence">Artificial Intelligence</label>
+        </div>
+        
+ <!-- Question 4 (Checkboxes) -->
+
+ <div class="question">
+    <p>4.You are designing an AI system that empowers everyone, including people who have hearing, visual, and other impairments.
+        This is an example of which Microsoft guiding principle for responsible AI? </p>
+    <input type="radio" id=" guiding" name="train" value="VALUE1">
+    <label for=" fairness"> fairness</label>
+    <BR></BR>
+    <input type="radio" id="guiding" name="train" value="VALUE2">
+    <label for="inclusiveness">inclusiveness</label>
+    <br>
+    <input type="radio" id="guiding" name="train" value="VALUE3">
+    <label for="accountability">accountability</label>
+</div>
+
+<div class="question">
+    <p>5.Provide consumers with information and controls over the collection, use, and storage of their data.?</p>
+    <select id="question5">
+        <option value="">--Select an answer--</option>
+        <option value="Privacy and security">Privacy and security</option>
+        <option value="Reliability and safety">Reliability and safety</option>
+        
+        <option value="Both a,b & c">Both a & b</option>
+    </select>
+</div>
+<div class="question">
+    <p>6. Which Statements belong to principle of transparency (select two)?</p>
+    <input type="checkbox" id="mic" value="Image classication">
+    <label for="Image classication">Providing an explanation of the outcome of a credit loan application is
+        an example of the Microsoft transparency principle for responsible Al.</label><br>
+    
+    <input type="checkbox" id="mic" value="Identify handwritten letters">
+    <label for="Identify handwritten letters">Identify handwritten letters</label><br>
+    
+    <input type="checkbox" id="mic" value="R">
+    <label for="R">Automated decision-making processes must be recorded so that approved users can
+        identify why a decision was made</label>
+    
+    
+</div>
+
+<div class="question">
+    <p>7. Returning a bounding box that indicates the location of a vehicle in an image is an example of?</p>
+    <select id="question7">
+        <option value="">--Select an answer--</option>
+        <option value="Object Detection">Object Detection</option>
+        
+        <option value="OCR">OCR</option>
+    </select>
+</div>
+<div class="question">
+    <p>8.According to Microsoft's principle of responsible Al,Al systems should NOT reflect biases from the dataset that are used to train the model?</p>
+    <select id="question8">
+        <option value="">--Select an answer--</option>
+        <option value="fairness">fairness</option>
+        
+        <option value="inclusiveness">inclusiveness</option>
+    </select>
+</div>
+<div class="question">
+    <p>9.Which of the following is commonly used as a model for image classification? </p>
+    <input type="radio" id="CNN" name="AI" value="CNN">
+    <label for="CNN"> CNN (Convolutional Neural Network)</label>
+    
+    <input type="radio" id="RNN" name="AI" value="RNN">
+    <label for="RNN">RNN (Recurrent Neural Network)</label>
+    
+    
+</div>
+<div class="question">
+  <p>10.What does semantic segmentation aim to do in an image?</p>
+    <input type="radio" id="Detect individual objects in an image" name="images" value="Detect individual objects in an image">
+    <label for="Detect individual objects in an image">Detect individual objects in an image</label><BR></BR>
+    
+    <input type="radio" id="Assign a label to each pixel in the image" name="images" value="Assign a label to each pixel in the image">
+    <label for="Assign a label to each pixel in the image">Assign a label to each pixel in the image</label><BR></BR>
+    <input type="radio" id="Remove the background from the image" name="images" value="Remove the background from the image">
+    <label for="Remove the background from the image">Remove the background from the image</label>
+    
+    
+</div>
+<div class="question">
+    <div class="question">
+        <p>11.Which of the following is critical for ensuring accountability in AI development?</p>
+        <input type="radio" id="Building AI systems that require no human oversight" name="At" value="Building AI systems that require no human oversight">
+        <label for="Building AI systems that require no human oversight">Building AI systems that require no human oversight</label><br>
+        
+        <input type="radio" id="standards" name="At" value="standards">
+        <label for="standards">Implementing a governance framework that defines ethical and legal standards</label>
+        
+</div>
+<div class="question">
+    12:<p> <img src="face detection.jpg" alt=""><br>Which Technique used in above image?</p>
+      <input type="radio" id="Elevenlabs" name="image" value="Object detection">
+      <label for="Object detection">Object detection</label>
+      
+      <input type="radio" id="Elevenlabs" name="image" value="OCR">
+      <label for="Elevenlabs">OCR</label>
+      <input type="radio" id="Elevenlabs" name="image" value="Face detection">
+      <label for="Elevenlabs">Face detection</label>
+      
+      
+  </div>
+  <div class="question">
+    <p>13.What is the smallest unit of a digital image?</p>
+    <input type="radio" id="NO" name="Am" value="Voxel">
+    <label for="Voxel">Voxel</label>
+    
+    <input type="radio" id="Yes" name="Am" value="Pixel">
+    <label for="Pixel">Pixel</label>
+    
+    
+</div>
+<div class="question">
+    <p>14. What are three Microsoft guiding principles for responsible AI? </p>
+    <input type="checkbox" id="inclusiveness" value="inclusiveness">
+    <label for="inclusiveness">inclusiveness</label>
+    
+    <input type="checkbox" id="opinionatedness" value="opinionatedness">
+    <label for="opinionatedness">opinionatedness</label>
+    <input type="checkbox" id="reliability and safety" value="reliability and safety">
+    <label for="reliability and safety">reliability and safety</label>
+    
+</div>
+
+<button onclick="checkAnswers()">submit</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
